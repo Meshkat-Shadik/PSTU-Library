@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Love+Ya+Like+A+Sister|Nothing+You+Could+Do|Poiret+One|Rajdhani|Reenie+Beanie" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/custome.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+</head>
+
+
+
+
+<body data-spy="scroll" data-target=".navbar">
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="nav-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="Topper.php" class="navbar-brand"><img src="img/pstu.png" width="50px" height="45px"></a>
+					<button class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="nav">
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="https://www.pstu.ac.bd"><span class="fa fa-window-maximize" style="margin-left: 40px;"></span><br>Main Website</a>
+		<li><a href="#home"><span class="fa fa-home" style="margin-left: 13px;"></span><br>Home</a>
+		<li><a href="#bookk"><span class="fa fa-book" style="margin-left: 12px;"></span><br>Books</a>
+			<li><a href="#a_us"><span class="fa fa-users" style="margin-left: 24px;"></span><br>About us</a>
+			<li><a href="#c_us"><span class="fa fa-envelope-o" style="margin-left: 30px;"></span><br>Contact us</a>
+			<li><a href="loginPage.php"><span class="fa fa-user-circle-o" style="margin-left: 11px;"></span><br>Login</a>
+
+		</ul>
+		</div>
+			</div>
+	</nav>
+	<!-- <div class="container-fluid">
+		<div class="row">
+			<img class="img-responsive" src="img/bg.JPG">
+		</div>
+	</div> -->
+
+	<div id='home' class="jumbotron top-main-div" style="background: url('img/bg.JPG') no-repeat center center; background-size: cover;">
+		<div class="overlay">
+			
+		</div>
+		<div class="container text-center main-heading">
+		<h2 style= "color: yellow; font-family: 'Nothing You Could Do', cursive; color: yellow">Hey there!</h2>
+		<sup style="font-size: 26px;font-family: 'Reenie Beanie', cursive; color: black"> This is &nbsp;</sup><text class="textpstu">PSTU LIBRARY</text><text class="textpstutwo">&nbsp;&nbsp;'s</text><sup style="font-size: 26px;font-family: 'Reenie Beanie', cursive; color: black">&nbsp; webpage</sup>
+		<br>
+		<h3 style="color: #0088CA;font-family: 'Love Ya Like A Sister', cursive">You can find <span id="that" class="typewrite" data-period="2000" data-type='[ "Academic Books.", "Novel Books.", "Liberation war Books", "Poems and so on........" ]' style="color: red;"></span></h3>
+
+  </a>
+		</div>
+	</div>
+
+
+<!--  <div id="search" style="margin-top: 80px">
+        <form action="MainPage.php" method="post">
+      <center>  <input class="form-control text-center" type="text" name="search" value="" placeholder="Type to search your books"></center>
+            <input class="pull-left" type="Submit" name="loginButton" value="Search" style="text-align: center;">
+        </form>
+    </div> -->
+
+
+	
+
+
+  <section class="section-padding contact-us" id='bookk'>
+       <div class="container">
+           <div class="row">
+               <div class="col-md-6 col-md-offset-3">
+                   <div class="section-title">
+                       <h2>Books <span>Genre</span></h2>
+                       <p>Here you will find information about many books.
+							There are about 4 types of book information.
+							Approximately the genre of the books are academic, novel, liberation war and others. To see specific books click on the specific category.</p>
+                   </div>
+               </div>
+           </div>
+           <div class="row" id="srch">
+        <div class="col-sm-6 col-sm-offset-3" style="margin-bottom: 40px;">
+            <div id="imaginary_container"> 
+            	     <form action="MainPage.php" method="post">
+                <div class="input-group stylish-input-group">
+                    <input class="form-control text-center one" type="text" name="search" value="" placeholder="Type to search your books">
+                    <span class="input-group-addon" style=" background:#66afe9;">
+                        <input type="Submit" name="loginButton" value="Search" style="text-align: center; border: none; background: #66afe9;color: white">
+                    </span>
+                </div>
+            </form>
+            </div>
+        </div>
+	</div>
+           <div class="row">
+               <div class="col-md-3">
+                   <div class="single-pricing-box">
+                       <h3 style="background: #E2D5CC;">Academic</h3>
+                       <div class="pricing-icon">
+                           <i class="fa fa-book"></i>
+                       </div>
+                       <div class="pricing-list">
+                           <ul>
+                           <li>7 faculties book</li>
+                           <li>Reference book</li>
+                           <br>
+                          <!--  <li class="off">Managed CMS</li> -->
+                      
+                       </ul>
+                       </div>
+                       <a href="academic_list.php" class="bordered-btn">Visit</a>
+                   </div>
+               </div>
+               <div class="col-md-3">
+                   <div class="single-pricing-box">
+                       <h3 style="background: #E2D5CC;">Novel Books</h3>
+                       <div class="pricing-icon">
+                           <i class="fa fa-sticky-note"></i>
+                       </div>
+                       <div class="pricing-list">
+                           <ul>
+                           <li>Various novel writer's book</li>
+                           <br>
+                       </ul>
+                       </div>
+                       <a href="One.php" class="bordered-btn">Visit</a>
+                   </div>
+               </div>
+               <div class="col-md-3">
+                   <div class="single-pricing-box">
+                       <h3 style="background: #E2D5CC;">Liberation War</h3>
+                       <div class="pricing-icon">
+                           <i class="fa fa-tint"></i>
+                       </div>
+                       <div class="pricing-list">
+                           <ul>
+                           <li>History of 1971</li>
+                           <li>Books about Bangabandhu.</li>
+                       </ul>
+                       </div>
+                       <a href="" class="bordered-btn">Visit</a>
+                   </div>
+               </div>
+               <div class="col-md-3">
+                   <div class="single-pricing-box">
+                       <h3 style="background: #E2D5CC;">Others</h3>
+                       <div class="pricing-icon">
+                           <i class="fa fa-question-circle"></i>
+                       </div>
+                       <div class="pricing-list">
+                           <ul>
+                           <li>Other genre books</li>
+                           <li>poems/ journal/ history and more.</li>
+                       </ul>
+                       </div>
+                       <a href="" class="bordered-btn">Visit</a>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   
+ <div class="container" style="padding-left: 300px; padding-right: 300px">
+   	<div class="row">
+   		 <div class="section-title">
+   		<h2>Top<span>Listed</span>Books</h2>
+   	</div>
+   		 <div class="owl-carousel owl-theme">
+            <div class="item">
+              <img src="img/pic_one.jpg" height="200px" width="100px">
+            </div>
+            <div class="item">
+              <img src="img/b_b.png" height="200px" width="100px">
+            </div>
+            <div class="item">
+             <img src="img/c_c.png" height="200px" width="100px">
+            </div>
+            <div class="item">
+              <img src="img/d_d.png" height="200px" width="100px">
+            </div>
+            <div class="item">
+              <img src="img/e_e.png" height="200px" width="100px">
+            </div>
+            <div class="item">
+              <img src="img/f_f.png" height="200px" width="100px">
+            </div>
+             <div class="item">
+              <img src="img/a_a.png" height="200px" width="100px">
+            </div>
+            <div class="item">
+              <img src="img/b_b.png"  height="200px">
+            </div>
+            <div class="item">
+             <img src="img/c_c.png"  height="200px">
+            </div>
+            <div class="item">
+              <img src="img/d_d.png" height="200px" >
+            </div>
+            <div class="item">
+              <img src="img/e_e.png" height="200px" >
+            </div>
+            <div class="item">
+              <img src="img/f_f.png" height="200px">          
+            </div>
+          </div>
+   	</div>
+   </div>
+
+
+
+
+
+	<div id='a_us' class="container-fluid content-padding">
+		<div class="row">
+			 <div class="section-title">
+			<h2>About <span>Us</span></h2>
+		</div>
+			<div class="col-sm-2">
+				<img class="img-responsive" id="height-weight" src="img/pic_one.jpg">
+			</div>
+			<div class="col-sm-10">
+				<h4>heading</h4>
+				<p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				<button class="btn btn-default btn-lg">button</button>
+			</div>
+		</div>
+	</div>
+	<div id='c_us' class="container-fluid contact-us content-padding">
+		<div class="row">
+			 <div class="section-title">
+			<h2>Contact <span>Us</span></h2>
+		</div>
+			<p class="text-center"><i>Don't Shy to Drop Us a Mail</i></p>
+			<div class="col-sm-4">
+				<p><i>Quick Contact</i> </p>
+				<p><i class="fa fa-phone-square"></i> Phone : +8801236124142</p>
+				<p><span class="fa fa-map-marker"></span> Address : Patuakhali </p>
+				<p><span class="fa fa-envelope"></span> Email : admin@yahoo.com</p>
+			</div>
+			<div class="col-sm-8">
+				<div class="row">
+				<div class="form-group col-sm-6">
+					<input class="form-control" type="text" placeholder="Name" ="Name">
+				</div>
+				<div class="form-group col-sm-6">
+					<input class="form-control"  type="text" placeholder="Email" name="Email">
+				</div>
+				</div>
+					<textarea  class="form-group form-control" name="" cols="30" rows="5" placeholder="Text" name="textarea"></textarea>
+					<input  class="btn-default pull-right" type="Submit" name="SubmitButton" value="Submit" style="text-align: center">
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid" style="background: #DBDBDB;">
+		<div class="row">
+			<div class="col-sm-4 text-center">
+				<h4><u>Academic</u></h4>
+				<ul>
+                    <li><i>History of 1971</i></li>
+                    <li><i>Books about Bangabandhu.</i></li>
+                </ul>
+			</div>
+			<div class="col-sm-4 text-center">
+				<h4><u>References</u></h4>
+				<ul>
+                    <li><i>History of 1971</i></li>
+                    <li><i>Books about Bangabandhu.</i></li>
+                </ul>
+			</div>
+			<div class="col-sm-4 text-center">
+				<h4><u>Academic</u></h4>
+				<ul>
+                    <li><i>History of 1971</i></li>
+                    <li><i>Books about Bangabandhu.</i></li>
+                </ul>
+			</div>
+
+		
+		</div>
+	</div>
+	<div style="height: 14px;width: 100%;background-color: #66afe9">
+	</div>
+	
+	<footer class="footer">
+		<div class="footer-inner text-left">
+		<div class="col-sm-4 text-left">
+		<p><a href=""><span class="fa fa-facebook fa-2x"></span></a> </p>
+		<p><a href=""><span class="fa fa-twitter fa-2x"></span></a> </p>
+		<p><a href=""><span class="fa fa-google fa-2x"></span></a> </p>
+		<p><a href=""><span class="fa fa-linkedin fa-2x"></span></a> </p>
+		</div>
+		<div class="col-sm-4 text-center">
+			<p>All rights reserved &copy PSTU</p>
+		</div>
+		<!-- 	<h6 class="text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-user">&nbsp;<p class="v">Developer's information</p></h6> -->
+			<div class="col-sm-4 text-right">
+				<h6 style="line-height: 1px; text-align: center; margin-left: 80px;color:white ">Developer's information</h6>
+		<p class="v"><a href="https://www.facebook.com/shadik.faysalmeshkat"><span class="fa fa-facebook"  style="color: #66afe9"></span>&nbsp;Facebook</a></p>
+		<p class="v"><a href=""><span class="fa fa-phone-square" style="color: #00AA00"></span>&nbsp;Contact</a></p>
+		<p class="v"><a href=""><span class="fa fa-twitter" style="color: #66afe9"></span>&nbsp;Twitter</a></p>
+		<p class="v"><a href=""><span class="fa fa-envelope" style="color: #D20000"></span>&nbsp;Email</a></p>
+		<p class="v"><a href=""><span class="fa fa-linkedin" style="color: #66afe9"></span>&nbsp;LinkedIn</a></p>
+		</div>
+		</div>
+
+	</footer>
+<script>
+            $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                margin: 10,
+                nav: false,
+                loop: true,
+                autoplay:true,
+                autoplayTimeout: 3000,
+                center: true,
+                 responsiveClass:true,
+                responsive: {
+                  0: {
+                    items: 1
+                  },
+                  500: {
+                    items: 4
+                  },
+                  700:
+                  {
+                  	 items: 4
+                  },
+                  1000: {
+                    items: 4
+                  }
+                }
+              })
+            })
+  </script>
+</body>
+</html>

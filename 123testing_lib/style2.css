@@ -1,0 +1,373 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    color: black;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #18187e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#all
+{
+    /*background: url("DSC00260.JPG");*/
+   /* background-size:1550px 600px;
+    background-repeat: no-repeat;*/
+    background: url("bcreedit.png");
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    display: none;
+}
+header
+{
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 7px;
+
+}
+header::after
+{
+    content: "";
+  /*  background: url("test3 (1).jpeg");*/
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+}
+a:link
+{
+    text-decoration: none;
+    color:white;
+}
+a:visited
+{
+    text-decoration: none;
+    color:white;
+}
+a:hover
+{
+    color:white;
+    background-color: red;
+}
+.last a
+{
+    color:white;
+    background-color: crimson;
+    border: 1px solid black;
+    padding:5px;
+}
+
+.welcome 
+{
+
+}
+.welcome .blinking
+{
+
+	color: red;
+	
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+    position: center;
+    margin: 0 auto;
+}
+.cat1 {
+    width: 25%;
+    margin-top: 100px;
+    margin-left: 10px;
+    height: 350px;
+    background: rgba(200,200, 200, 0.8);
+    border: 1px solid black;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+    box-shadow: inset 0 8px 16px 0 rgba(0,0,0,.5), 0 8px 16px 0 rgba(0,0,0,.8);
+
+}
+.txt
+{
+    font-family:'CharukolaUltraLight', Arial, sans-serif;
+    font-weight: bold;
+}
+.cat2 {
+    margin-top: 100px;
+    width: 25%;
+    margin-left: 10px;
+    height: 350px;
+    background: rgba(192, 200, 181, 0.8);
+    border: 1px solid black;
+  border-radius: 100%;
+    text-align: center;
+    color: white;
+    box-shadow: inset 0 8px 16px 0 rgba(0,0,0,.5), 0 8px 16px 0 rgba(40, 41, 35, 0.9);
+}
+.cat3 {
+    margin-top: 100px;
+    width: 25%;
+    margin-left: 10px;
+    height: 350px;
+    background-color: rgba(191, 198, 221, 0.8);
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    border-radius: 60%;
+    box-shadow: inset 0 8px 16px 0 rgba(0,0,0,.5), 0 8px 16px 0 rgba(0,0,0,.8);
+}.cat4 {
+     margin-top: 100px;
+     width: 25%;
+     margin-left: 10px;
+     height: 350px;
+    background: rgba(201, 228, 228, 0.8);
+     border: 1px solid black;
+     color: white;
+     text-align: center;
+  border-radius: 100%;
+    box-shadow: inset 0 8px 16px 0 rgba(0,0,0,.5), 0 8px 16px 0 rgba(0,0,0,.8);
+ }
+@font-face {
+    font-family: 'CharukolaUltraLight', Arial, sans-serif !important;
+    src: url("/cch.ttf");
+}
+.imgg
+{
+	margin-top: 8px;
+}
+
+#flex-container .cat1 input[type="submit"],.cat2 input[type="submit"],.cat3 input[type="submit"] ,.cat4 input[type="submit"]
+{
+    background: transparent;
+    border:none;
+    outline: none;
+    color:white;
+    
+    cursor: pointer;
+    padding:10px 20px;
+  
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#flex-container .cat1 input[type="submit"]
+{
+	background: #2F005E;
+}
+#flex-container .cat2 input[type="submit"]
+{
+	background: #002800;
+}
+#flex-container .cat3 input[type="submit"]
+{
+	background: #001F3E;
+}
+#flex-container .cat4 input[type="submit"]
+{
+	background: #366561;
+}
+
+#search input[type="submit"]
+{
+    background: transparent;
+    border:none;
+    outline: none;
+    color:white;
+    background: #eb6548;
+    border-radius: 10px;
+    margin-left: 50px;
+    transition: padding .2s;
+}
+#search
+{
+    margin:30px;
+    top:50%;
+    left:50%;
+  /* transform: translate(-50%,-50%);*/
+    background: #2f3640;
+    height: 50px;
+    margin-left: 40%;
+    border-radius: 40px ;
+    padding:10px;
+    width: 20%;
+    height: 47px;
+
+    box-shadow: inset 16px 8px 16px 8px rgba(0,0,0,.5);
+}
+.search-txt
+{
+    margin-left: 10px;
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding:0;
+    color:white;
+    font-size: 16px;
+    transition: 0.4s;
+    width: 220px;
+    line-height: 40px;
+    margin-top: 6px;
+}
+#search:hover ~ #search input[type="submit"]
+{
+   height: 47px;
+
+}
+#search input[type="submit"]:hover
+{
+
+    padding: 10px;
+}
+
+h1
+{
+    font-family: 'CharukolaUltraLight', sans-serif;
+    font-weight: lighter;
+    font-stretch: expanded;
+}
+.image-head {
+  background-image:url(lf.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 600px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-align: center;
+}
+
+#flex-container .cat1 .up
+{
+	padding: 24px;
+	background-color: #2F005E;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	/*-moz-background: linear-gradient (45deg, #f321d6, #5121f3);*/
+}
+#flex-container .cat2 .up
+{
+	padding: 24px;
+	background-color: #002800;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	/*-moz-background: linear-gradient (45deg, #f321d6, #5121f3);*/
+}
+#flex-container .cat3 .up
+{
+	padding: 24px;
+	background-color: #001F3E;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	/*-moz-background: linear-gradient (45deg, #f321d6, #5121f3);*/
+}
+#flex-container .cat4 .up
+{
+	padding: 24px;
+	background-color: #366561;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	/*-moz-background: linear-gradient (45deg, #f321d6, #5121f3);*/
+}
+/*style er moddhe dhukbe     @import url('https://fonts.maateen.me/charukola-ultra-light/font.css');*/
+body
+{
+	font-family: century gothic;
+}
+.blinking{
+	animation:blinkingText 2s infinite;
+	padding: 20px;
+}
+
+@keyframes blinkingText{
+	0%{		color: #000;	}
+
+  
+	40%{	color: #000;	}
+	50%{	color:transparent;	}
+  
+	60%{	color: #000;	}
+  
+	100%{	color: #000;	}
+	}
+	h3
+	{
+		color: red;
+			font-family: century gothic;
+		background-color: yellow;
+	}
+
+	.blinking2{
+	animation:blinkingText 1s infinite;
+	padding: 20px;
+}
+
+@keyframes blinking2Text{
+	0%{		scale:1;	}
+
+  
+	40%{	scale:1.5;	}
+	50%{	scale:2;	}
+  
+	60%{	scale:1.5;	}
+  
+	100%{	scale:1;	}
+	}
+	h3
+	{
+		color: red;
+			font-family: century gothic;
+		background-color: yellow;
+	}

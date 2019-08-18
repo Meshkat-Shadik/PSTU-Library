@@ -1,0 +1,95 @@
+.anyname_it_can_be_changeble_stored_in_css_child{
+    
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(64, 221, 222, 0.71);
+   box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+.b
+{
+    float: right;
+    margin-top: 4px;
+}
+body image
+{
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.error
+{
+  
+}
+nav
+{   padding: 0;
+    margin: 0;
+    position: absolute;
+    float: left;
+    width: 90%;
+    
+    
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    float:right;  
+}
+nav ul a {
+    text-decoration: none;
+}
+
+.anyname_it_can_be_changeble_stored_in_css_child .inputbox
+{
+    position: relative;
+}
+.anyname_it_can_be_changeble_stored_in_css_child .inputbox input
+{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    margin-bottom:  30px;
+    border: none;
+    letter-spacing: 2px;
+    outline: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+}
+
+.anyname_it_can_be_changeble_stored_in_css_child .inputbox label
+{
+    position: absolute;
+    top: -5px;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: Black;
+    transition: .5s;
+    pointer-events: none;
+}
+.anyname_it_can_be_changeble_stored_in_css_child .inputbox input:focus ~ label,
+.anyname_it_can_be_changeble_stored_in_css_child .inputbox input:valid ~ label
+{
+    top:-20px;
+    left: 0;
+    color:white;
+    font-size: 16px;
+}
+.anyname_it_can_be_changeble_stored_in_css_child input[type="submit"]
+{
+    background: transparent;
+    border:none;
+    outline: none;
+    color:white;
+    background: black;
+    cursor: pointer;
+    padding:10px 20px;
+    border-radius: 5px;
+}

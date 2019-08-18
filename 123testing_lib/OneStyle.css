@@ -1,0 +1,122 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background:  #D8D9DC;
+    font-family: sans-serif;
+}
+.container
+{
+    width: 1280px;
+    margin: 70px auto 0;
+    display: -webkit-flex;
+    display:-moz-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .box
+{
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: relative;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.container .box .imgbox
+{
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imgbox img
+{
+    max-width: 100%;
+    transition: transform 2s;
+}
+.container .box:hover .imgbox img
+{
+    transform: scale(1.2);
+}
+.container .box .details
+{
+    position: absolute;
+    top: 10px;
+    left:10px;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(0,0,0,0.5);
+    transform: scaleY(0);
+    transition: transform 2s;
+}
+.container .box:hover .details
+{
+    transform: scaleY(1);
+  /*  padding: 20px;*/
+}
+.container .box .details .content
+{
+    position: absolute;
+    top:50%;
+    transform:  translateY(-50%);
+    text-align: right;
+    /*padding: 20px;*/
+    color:white;
+    align-content: center;
+}
+.container .box .details .content .extra h4
+{
+    /*font-size: 20px;*/
+    color:#f00;
+    text-align: justify;
+    
+}
+
+.container .box .details .content .extra p
+{
+   text-align: center;;
+}
+
+.container .box .details .content input[type="submit"]
+{
+    background: transparent;
+    border:none;
+    outline: none;
+    color:white;
+    background: rgba(107, 171, 255, 0.8);
+    cursor: pointer;
+    padding:10px 20px;
+    border-radius: 5px;
+    margin-right: 50%;
+}
+nav
+{
+    top:80px;
+    left: 20px;
+    position: absolute;
+    float: left;
+    width: 90%;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    float:right;
+}
+nav ul a {
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.extra
+{
+    padding: 2px;
+    text-overflow: ellipsis;
+}
+.xtra
+{
+    align-items: center;
+}

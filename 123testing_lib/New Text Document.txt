@@ -1,0 +1,7 @@
+<?
+ $servername = "localhost";
+        $username = "root";
+         $password ="";
+         $databasename="passwordholder";
+          $con = new mysqli($servername,$username,$password,$databasename);
+?>
